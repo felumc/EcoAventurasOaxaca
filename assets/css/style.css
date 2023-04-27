@@ -1,14 +1,38 @@
-/**
-* Template Name: Squadfree
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.card {
+  margin: 0 auto;
+  width: 60%;
+  margin-bottom: 80px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.card-img-top {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.text-muted {
+  font-size: 14px;
+}
+
+
+/*
+-----------------Estilos plantilla-------------------------- 
+*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -1182,6 +1206,7 @@ section {
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 80px;
+  background-color: white;
 }
 
 .contact .info-box {
